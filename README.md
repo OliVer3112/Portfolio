@@ -109,3 +109,8 @@ When choosing tasks for next sprints I wanted to change from machine learning ta
 All the measing values had been replaced by NaN at first instance so first I detected Nan from the datframe they were replaced by 0. Explain possibility of rotations not ending in the same plot
 Once I had the conditions for a rotations, I plotted them i order o see if they were actually rotations, after trying out many combinations I found out the one providing better results, which aren’t perfect as we are working with max values we can’t find exactly all the rotations and sometimes finds rotations which aren’t 
 
+Communiction
+Presentations
+	Internal-> 2nd internal alone, last one with jake 
+	External->Last one with martijn
+	Research Paper-> Abstract took part in summary, introduction, problem description and research questions 
