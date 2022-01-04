@@ -64,7 +64,16 @@ In my opinion the group was good, everybody tried to do its hardest and to commu
 	STARR, reflected group project and 400+ words(213)
 
 
-Predictive Analytics->Knn, SGD(linear models), ´
+Predictive Analytics->Knn, SGD(linear models), 
+Divide into:
+-Selecting a Model
+-Configuring a Model
+-Training a model
+-Evaluating a model
+-Visualizing the outcome of a model 
+
+
+
 KNN
 As a first approach of the project, we decided to split the group into machine learning and data team. The machine learning team was in charge of making the first approaches to any usable method we could use. So, we decided to try make work a decision tree, knn and gaussian naïve bayes. My task was to make a working model of K-nearest Neighbors. This selection was made since they were the first models we were told about, so it would be a very naïve approach to the project in order to get used to the project, python and how machine learning works. Although some research was conducted before to see some examples of the model, also the datacamp resources were helpful(Supervised Learning with scikit-learn)
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
@@ -84,11 +93,15 @@ After having our neural network and being in the middle of the 1d CNN developmen
 
 
 Domain knowledge
-When assigned to the task of making a functional 2d CNN to detect sprints with our data, first there was some research needed as I had no previous knowledge about image recognition. 2d CNN consists of ->explain whats it
+When assigned to the task of making a functional 2d CNN to detect sprints with our data, first there was some research needed as I had no previous knowledge about image recognition.(explain what point of the project where we) 2d CNN consists of ->explain whats it and what benefits has compared to 1d cnn
 
 Explain steps of 2d cnn based on documentation
 
-Explain what are tensors, pooling, layers etc
+Explain what are tensors
+Convolutional layers
+ReLU layers
+Pooling layers
+a Fully connected layer
 
 Data preprocessing->Detect rotations
 
