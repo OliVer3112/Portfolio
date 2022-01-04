@@ -113,4 +113,4 @@ Communiction
 Presentations
 	Internal-> 2nd internal alone, last one with jake 
 	External->Last one with martijn
-	Research Paper-> Abstract took part in summary, introduction, problem description and research questions 
+	Research Paper-> Abstract took part in summary, introduction, problem description(with jake) and research questions (with jake), again problem description but with daan and finally introduction joined with problem description (adapted by jake, introduction adapted by martijn and collin, and our part) this time i had to make it fluent, aloso i added comments, as feedback to other people parts
