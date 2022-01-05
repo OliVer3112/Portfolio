@@ -93,6 +93,16 @@ After having our neural network and being in the middle of the 1d CNN developmen
 
 
 Domain knowledge
+
+
+Introduction of the subject field
+	Today we live in the information age, where information comes and goes with just a few clicks. However, this information is of utmost importance in the workplace, ["The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity"]. The Applied Data Science minor has given me a first approach to the ins and outs of information manipulation and how to make predictions of events or classify information using large volumes of data and detecting patterns in it, in short the value of data science.
+	"The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity" 
+
+Literature research
+	As this was my first approach to data science and python, a minimum of research was required in order to understand the situation posed by the wheels project. The project consists in the detection of patterns and movement classification from IMU sensors' collected data. But before I started learning random things, I needed an understanding of the problem I was facing, in order to find the points on which the project should focus. After some difficulties in finding information about the topic I found a paper that mentions the importance of activity trackers for wheelchair users [https://www.rehab.research.va.gov/jour/2016/536/pdf/jrrd-2016-01-0006.pdf], which, when supported by another paper found by my colleague Martijn [https://dl.acm.org/doi/abs/10.1145/2700648.2809845], which explain the difficulties of impaired athletes to track their activities and collect useful data of them, gave me a better understanding of the situation we were in.
+
+Translated with www.DeepL.com/Translator (free version)
 When assigned to the task of making a functional 2d CNN to detect sprints with our data, first there was some research needed as I had no previous knowledge about image recognition.(explain what point of the project where we) 2d CNN consists of ->explain whats it and what benefits has compared to 1d cnn
 
 Explain steps of 2d cnn based on documentation
