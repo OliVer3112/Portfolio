@@ -117,12 +117,13 @@ Explain concepts
 		IMU: They are an electronic device that measures and reports the speed, orientation and gravitational forces of a device using a combination of accelerometers and gyroscopes. The name IMU comes from Inertial Measurement Unit. This sensors can measure in three axis (X, Y, Z) and they are the source of our raw data
 			Accelerometers: Device that can measure linear acceleration, can be also used for specific purposes such as inclination and vibration measurement.
 			Gyroscopes: Device that can measure and maintain the orientation and angular velocity of an object.
-	Data PreProcessing & preparation(see a bit of info)
-		Cleaning
-		Numeric
-		Scaling
-		Balancing
-		Outliers
+	Data PreProcessing & preparation: The core of a machine learning project is its dataset, but before you can get hands into models you need to prepare and clean your dataset because data may be incomplete (attributes, values or both missing), noisy (data has errors and outliers) or inconsistent (data contains differences in codes or names)
+	
+		Data Cleaning: Process consisting in identifying data errors and correct them to create a complete and accurate dataset. In the case of our project we had some missing values due to game stops, players being substitued and also there were sitations where sensors stopped working. To solve this, it was needed to fill those blank spaces with NaN (Not a number) values which is an often used technique for data cleaning.
+		Identifying and correcting mistakes or errors in the data. Numbers, outliers
+		Data Structuring: Identifying those input variables that are most relevant to the task. Scaling goes here
+		Data Transforms & enrichment: Improving the quality of data (balancing
+		Data Validation
 	Machine learning:
 		Types
 			Regression
