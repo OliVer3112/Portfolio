@@ -112,10 +112,11 @@ Translated with www.DeepL.com/Translator (free version)
 When assigned to the task of making a functional 2d CNN to detect sprints with our data, first there was some research needed as I had no previous knowledge about image recognition.(explain what point of the project where we) 2d CNN consists of ->explain whats it and what benefits has compared to 1d cnn
 
 Explain concepts
-	Dataset
-		IMU
-		Accelerometers
-		Gyroscopes
+	Dataset: To make use of macine learning it is essential to have a dataset, this consists of a series of contents, of any type (numbers, letters, etc.), within a table. Within the table, each column represents a particular variable called features, and each row represents a particular member of the dataset we are dealing with.
+		Feature:Features are the basic building blocks of datasets, for example age, sex are some possible features you can find in a dataset. The quality of the features in your dataset has a major impact on the quality of the insights you will gain when you use that dataset for machine learning
+		IMU: They are an electronic device that measures and reports the speed, orientation and gravitational forces of a device using a combination of accelerometers and gyroscopes. The name IMU comes from Inertial Measurement Unit. This sensors can measure in three axis (X, Y, Z) and they are the source of our raw data
+			Accelerometers: Device that can measure linear acceleration, can be also used for specific purposes such as inclination and vibration measurement.
+			Gyroscopes: Device that can measure and maintain the orientation and angular velocity of an object.
 	Data PreProcessing & preparation(see a bit of info)
 		Cleaning
 		Numeric
