@@ -120,10 +120,9 @@ Explain concepts
 	Data PreProcessing & preparation: The core of a machine learning project is its dataset, but before you can get hands into models you need to prepare and clean your dataset because data may be incomplete (attributes, values or both missing), noisy (data has errors and outliers) or inconsistent (data contains differences in codes or names)
 	
 		Data Cleaning: Process consisting in identifying data errors and correct them to create a complete and accurate dataset. In the case of our project we had some missing values due to game stops, players being substitued and also there were sitations where sensors stopped working. To solve this, it was needed to fill those blank spaces with NaN (Not a number) values which is an often used technique for data cleaning.
-		Identifying and correcting mistakes or errors in the data. Numbers, outliers
-		Data Structuring: Identifying those input variables that are most relevant to the task. Scaling goes here
-		Data Transforms & enrichment: Improving the quality of data (balancing
-		Data Validation
+		Data Structuring: Identifying those input variables that are most relevant to the task, this means the selecon of features that will be more relevant, in our project they were wheel rotational speed and frame rotational speed for example. Sometimes its also needed to decompose features in simpler ones to help in capturing more specific relationships.
+		Data Transforms & enrichment: Data often must be transformed to make it consistent and turn it into usable information. For example one technique worth mentioning is data balancing, this one has been essential for our project, as its necessary for classification problems and our aim was to classify movements from data. One of our problems was that our dataset was imbalanced, so there were a lot of points which wereN't sprints and few classified sprints. Because of this we couldnt classify appropiately with our models and we had to balnce the dataset so that the amount of sprints classified were similar to the amount of non-sprints
+		Data Validation: Machine learning models are vulnerable to poor data quality, to avoid this its important to check the accuracy and quality of source data before training a new model version. Taht way you ensure that anomalies that are infrequent or manifested in incremental data are not silently ignored
 	Machine learning:
 		Types
 			Regression
