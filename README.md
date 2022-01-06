@@ -123,36 +123,34 @@ Explain concepts
 		Data Structuring: Identifying those input variables that are most relevant to the task, this means the selecon of features that will be more relevant, in our project they were wheel rotational speed and frame rotational speed for example. Sometimes its also needed to decompose features in simpler ones to help in capturing more specific relationships.
 		Data Transforms & enrichment: Data often must be transformed to make it consistent and turn it into usable information. For example one technique worth mentioning is data balancing, this one has been essential for our project, as its necessary for classification problems and our aim was to classify movements from data. One of our problems was that our dataset was imbalanced, so there were a lot of points which wereN't sprints and few classified sprints. Because of this we couldnt classify appropiately with our models and we had to balnce the dataset so that the amount of sprints classified were similar to the amount of non-sprints
 		Data Validation: Machine learning models are vulnerable to poor data quality, to avoid this its important to check the accuracy and quality of source data before training a new model version. Taht way you ensure that anomalies that are infrequent or manifested in incremental data are not silently ignored
-	Machine learning:
-		Types
-			Regression
-				Linear
-				Polynomial
-				Ridge
-				Lasso
-			Classification
-				Logistic reg
-				Knn
-				SVM
-				Decision tree
-			Ranking(not in depth)
-			Clustering(not in depth)
-		Training
-			Train set
-			Test set
-			Optimizer
-		Evaluation
-			Evaluation models
-			Overfitting
-			Underfitting
-			Loss
-			Confusion mtrix
-			Precision
-			Recall
-			Score
+	Machine learning algorithms: These are the algorithms I've learnt to use during this minor. They are useful to perform a task without giving them explicit instruction, instead they learn the paterns they find in the data. . There is a wide variety of algorithms that can be used, but they can be divided into:
+
+			Regression: This type of algorithms will focus on predicting a specific value out of a continuous value, this means an exact number from a determined interval like 1-100 meters. This kind of algorithm wasn´t useful for my project
+			Classification: This type of machine learning method is useful to classify data into a certain class.  For my project was the most useful, as we wanted to detect if something was a sprint, another example of the application of this method would be the captchas' where you need to choose the images containing bycicles, in that situation if you use a classification model it would recognise the images containing them. Some of algorithms we used for the project where: 
+				Logistic Regression
+				Naive Bayes
+				KNN (K-Nearest Kneighbors)
+			Ranking: Used to predict an order, this type of algorithms are a central part of many information retrieval problems
+			Clustering: Consists of a grouping of "similar" datapoints, this is really useful for discovering natural grouping and tendencies in data, but there are no classes to be predicted
+		Training: Consists of learning (determining) good values for all the weights by adjusting the parameters or weights of the model, and the bias from labeled examples adjust, in order to improve the models performance
+			Train set: Really large subset of the data which is going to be used to train the model and build it
+			Test set: Subset of the data that is used to test a machine learning program after it has been trained on an initial training data set
+			Hyperparameters: These are variables whose value has been set before the training of a model, unlike parameters. They are key for the success, as they have to be tuned to fine the optimal values
+		Model evaluation: Once the model has been tested this process will help find the optimum values for the model to work at its best
+			Cross validation: The goal of cross-validation is to test the model's ability to predict new data that was not used with independence of the partition between training and test data, as it will shuffle the data and choose one portion of the data as test set and the rest as training set. It's really helpful to flag problems like overfitting or underfitting
+			K-Fold cross validation: The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into, it will choose one and take it as test set and the rest as training set, keep the score and repeat the process with another fold as a test set. Apart from that its the same as cross validation. It's usually used when your training set is small and you want to maximize it's size
+				Overfitting: Also known as high variance, occurs when the model is too specific and reacts to any small variation in the training data, it can occur when we are using too much parameters
+				Underfitting: Also known as high bias consists in a model being too simple to describe the data, opposite to overfitting can occur when there are too few parameters
+			
+			Loss: Is a penalty for a bad prediction, a number indicating how bad the model's prediction was on a single example. In case the loss is 0 then it means that the model's prediction was perfect. The goal of training a model is to find a set of weights and biases that have low loss, on average
+			Mean Squared Error: One of the most emblematic evaluation metric for regression models. It's main characteristics are the reduction of variance to data points and  its sensitivity to distant points (outliers). The lower it's values are the better your model. It's unit order is higher than the error unit as the error is squared, thats why many times Root Mean Squared Error is used instead.
+			Confusion matrix: One of the most common evaluation metrics for classification models. This method consist of a matrix of 2x2 dimensions. Inside the matrix  True positives (TP), positive class correctly detected; the False Positives (FP) positive class incorrectly detected; the False negatives (FN) negative class correctly detected and the True negatives (TN) can be found. This matrix will show the amount of points which were detected as what they "truly" are
+				Precision: Fraction of positive points among the truly classified points. TP/(TP + FP)
+				Recall: Proportion of the positives detected correctly. TP/(TP + FN)
+				Accuracy: Measures the proportion of true guesses by the model, it can make a model make better than it truly is because maybe detects a lot of true negatives but doesn't have true positives, which are the ones we want to increase. (TP + TN)/(TP + TN + FP + FN)
 	NN
 		Kinds of nn
-			NN 
+			Simple
 			1d CNN
 			2d CNN
 		Tensors
