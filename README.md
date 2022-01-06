@@ -100,15 +100,67 @@ Introduction of the subject field
 	"The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity" 
 
 Literature research
-	As this was my first approach to data science and python, a minimum of research was required in order to understand the situation posed by the wheels project. The project consists in the detection of patterns and movement classification from IMU sensors' collected data. But before I started learning random things, I needed an understanding of the problem I was facing, in order to find the points on which the project should focus. After some difficulties in finding information about the topic I found a paper that mentions the importance of activity trackers for wheelchair users [https://www.rehab.research.va.gov/jour/2016/536/pdf/jrrd-2016-01-0006.pdf], which, when supported by another paper found by my colleague Martijn [https://dl.acm.org/doi/abs/10.1145/2700648.2809845], which explain the difficulties of impaired athletes to track their activities and collect useful data of them, gave me a better understanding of the situation we were in.
+	As this was my first approach to data science and python, a minimum of research was required in order to understand the situation posed by the wheels project. The project consists in the detection of patterns and movement classification from IMU sensors' collected data. But before I started learning random things, I stated we needed an understanding of the problem I was facing, in order to find the points on which the project should focus. After some difficulties in finding information about the topic I found a paper that mentions the importance of activity trackers for wheelchair users [https://www.rehab.research.va.gov/jour/2016/536/pdf/jrrd-2016-01-0006.pdf], which, when supported by another paper found by my colleague Martijn [https://dl.acm.org/doi/abs/10.1145/2700648.2809845], which explain the difficulties of impaired athletes to track their activities and collect useful data of them, gave me a better understanding of the situation we were in.
 
 (Look a bit more this part)
 After knowing the situation it was decided that we should all look for information about previous studies on the subject, among them I found [https://www.researchgate.net/publication/353663819_Machine_Learning_to_Improve_Orientation_Estimation_in_Sports_Situations_Challenging_for_Inertial_Sensor_Use#pf4] (uses Gaussian Naive Bayes algorithm, a logistic regression, a decisiontree algorithm, and a random forest algorithm) which is a study of IMU sensors in wheelchairs to detect inclinations in the trunk of athletes, I also found another paper [https://www.sciencedirect.com/science/article/pii/S1877050921011121] that made use of machine learning to detect fractal gait patterns in soldiers. On the other hand, other colleagues found different papers quite useful, among them are these, which make use of different methods from those I had found as convolutional neural networks [https://www.sciencedirect.com/science/article/pii/S2666307421000140] and recurrent [http://www.ijpmbs.com/uploadfile/2017/1227/20171227050020234.pdf].
 
+
+After investigating the situation of the use of machine learning for motion detection and the use of sensors or data collection devices for wheelchair athletes, there were some interesting ideas in the use of different methods, but I still lacked the knowledge to develop the initiatives, among them and the one I focused on is the development of an image recognition model. First I had to do research about the simplest neural networks, for this I used the following link [link here] because it helped me a lot to get started on the subject, then I could understand the convolutional neural networks, thanks to [link here] explain a little I could understand the difference between CNN 1d, 2d and 3d. In this way I could focus on the 2d cnn, for this the following links [] were quite useful although some differed in their implementation approach but still helped me to find a common structure in the code
+
 Translated with www.DeepL.com/Translator (free version)
 When assigned to the task of making a functional 2d CNN to detect sprints with our data, first there was some research needed as I had no previous knowledge about image recognition.(explain what point of the project where we) 2d CNN consists of ->explain whats it and what benefits has compared to 1d cnn
 
-Explain steps of 2d cnn based on documentation
+Explain concepts
+	Dataset
+		IMU
+		Accelerometers
+		Gyroscopes
+	Data PreProcessing & preparation(see a bit of info)
+		Cleaning
+		Numeric
+		Scaling
+		Balancing
+		Outliers
+	Machine learning:
+		Types
+			Regression
+				Linear
+				Polynomial
+				Ridge
+				Lasso
+			Classification
+				Logistic reg
+				Knn
+				SVM
+				Decision tree
+			Ranking(not in depth)
+			Clustering(not in depth)
+		Training
+			Train set
+			Test set
+			Optimizer
+		Evaluation
+			Evaluation models
+			Overfitting
+			Underfitting
+			Loss
+			Confusion mtrix
+			Precision
+			Recall
+			Score
+	NN
+		Kinds of nn
+			NN 
+			1d CNN
+			2d CNN
+		Tensors
+		Epochs
+		Learning rate
+		Perceptron layers
+		Linear layers
+	
+			
 
 Explain what are tensors
 Convolutional layers
