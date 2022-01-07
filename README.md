@@ -177,6 +177,9 @@ Once I had the conditions for a rotations, I plotted them i order o see if they 
 
 Communiction
 Presentations
-	Internal-> 2nd internal alone, last one with jake 
+	In the course of time, we decided in my team who would be in charge of the respective presentation at least 4 days in advance. This would include asking colleagues about their progress, collecting that information and capturing it in a presentation, and then presenting that information on the day of the presentation.
+		Internal
+			This presentations were a way of updating the teachers and classmates about our progress. But the most important part of this presentatiotion was the pposibility of raising our doubts with colleagues who, if they have encountered the problem before or know the solution, may be able to help us. It is also very useful to be asked questions because we can find weaknesses in our approach and development of tasks. The following presentation was made entirely by myself [insert link], but this one I made it with Jake, my contributions were on the
+-> 2nd internal alone, last one with jake 
 	External->Last one with martijn
 	Research Paper-> Abstract took part in summary, introduction, problem description(with jake) and research questions (with jake), again problem description but with daan and finally introduction joined with problem description (adapted by jake, introduction adapted by martijn and collin, and our part) this time i had to make it fluent, aloso i added comments, as feedback to other people parts
