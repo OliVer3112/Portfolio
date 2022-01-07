@@ -158,16 +158,7 @@ Explain concepts
 			Precision: Fraction of positive points among the truly classified points. TP/(TP + FP)
 			Recall: Proportion of the positives detected correctly. TP/(TP + FN)
 			Accuracy: Measures the proportion of true guesses by the model, it can make a model make better than it truly is because maybe detects a lot of true negatives but doesn't have true positives, which are the ones we want to increase. (TP + TN)/(TP + TN + FP + FN)
-	
-	
-	
-			
 
-Explain what are tensors
-Convolutional layers
-ReLU layers
-Pooling layers
-a Fully connected layer
 
 Data preprocessing->Detect rotations
 
@@ -179,7 +170,7 @@ Communiction
 Presentations
 	In the course of time, we decided in my team who would be in charge of the respective presentation at least 4 days in advance. This would include asking colleagues about their progress, collecting that information and capturing it in a presentation, and then presenting that information on the day of the presentation.
 		Internal
-			This presentations were a way of updating the teachers and classmates about our progress. But the most important part of this presentatiotion was the pposibility of raising our doubts with colleagues who, if they have encountered the problem before or know the solution, may be able to help us. It is also very useful to be asked questions because we can find weaknesses in our approach and development of tasks. The following presentation was made entirely by myself [insert link], but this one I made it with Jake, my contributions were on the
+			This presentations were a way of updating the teachers and classmates about our progress. But the most important part of this presentatiotion was the pposibility of raising our doubts with colleagues who, if they have encountered the problem before or know the solution, may be able to help us. It is also very useful to be asked questions because we can find weaknesses in our approach and development of tasks. The following presentation was made entirely by myself [insert link], I also made this presentation [20 december one], but this one I made it with Jake. My contributions were on the recap and present of the project, but both Jake and I gave a bit of feedback to each other in order to improve distribution and selection of presented information.
 -> 2nd internal alone, last one with jake 
 	External->Last one with martijn
 	Research Paper-> Abstract took part in summary, introduction, problem description(with jake) and research questions (with jake), again problem description but with daan and finally introduction joined with problem description (adapted by jake, introduction adapted by martijn and collin, and our part) this time i had to make it fluent, aloso i added comments, as feedback to other people parts
