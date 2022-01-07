@@ -68,15 +68,31 @@ In my opinion the group was good, everybody tried to do its hardest and to commu
 	STARR, reflected group project and 400+ words(213)
 
 Research Project
+
+Task definition
 In professional sport, statistics are currently gaining a great deal of importance. Associations such as the NBA or FIFA use video tracking methods to keep statistics of recorded matches. This brings benefits to team managers as they are able to know the strengths and weaknesses of their players as well as their opponents, it also contributes to the prevention and detection of injuries and last but not least it is very useful for scouting. However the problem comes that not only is this video tracking system used as it is only used for match statistics, if you want to track the player more deeply you usually use very light sensors attached to the players equipment, these sensors work with players who are able to walk, however wheelchair athletes do not have that luck. This is where our project becomes relevant, as we propose the possibility of using IMU sensors, 2 in particular, one placed on a wheel and one placed under the player; and applying machine learning techniques to improve the statistical approach of the teams.
 
 To start our project, the first thing we had to do was to get to know our problem owner and see what we had to start with, so that we could do some research on the subject and start working on it. After knowing the situation of the project we elaborated a plan of approach in which we decided to pose a main question and a series of sub-questions that we were interested in being able to answer at the end of the development of the project.
 
-The main question we wanted to answer is:
-	
+The main question we wanted to answer in our Plan of Approach is:
+	How can IMU data be used to identify wheelchair basketball-specific movements?
+And the sub-questions raised by the team where:
+	Which form of data processing will be used? 
+	Which specific movements can be detected? 
+	Which sensor data is used for each movement? 
+	Can movements be used to predict fatigue? 
+	Can movements be used to detect overload? 
 
-Translated with www.DeepL.com/Translator (free version)
-Context & research questions
+Evaluation
+Throughout the project we've been trying many models, from the most basic ones like a Decision Tree to Neural Networks, until we found the models whose results were satisfactory. However, it took a long time to get to that point, due to various problems with the dataset. So we had to readjust the research questions to be more accurate with the final result, which we would be able to offer. 
+
+This would be our final research question: 
+	How can a RFC and a RNN be used to classify sprints in partially-defined IMU data? 
+And this our sub-questions:
+	Which form of data processing can be used to prepare the dataset?  
+	Which sensor data can be used for the detection of the sprints?  
+
+These new questions are more in line with the situation of our project, as the original ones were perhaps too ambitious, due to the inexperience we all had in the field of data science. In our research paper this questions have been already solved, as right now our models are capable of detecting sprints. Detection of other movements like rotatiosn, was in our scope and we only needed to adapt the existing code to achieve it. The results of this project can lead to really interesting future investigations, for example the detection and fatigue and overload this objective was on our scope at first. The main reason why we couldn´t achieve this objectives was because we couldn´t finish the detection of all the required movements to study the fatigue and overload. Also we it could be interesting to study patterns in diferent paralysis levels.
 Directions for future work
 Disscuss results, give examples and answers to original questios
 Show u have used scrum
