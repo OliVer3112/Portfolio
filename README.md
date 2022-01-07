@@ -11,7 +11,9 @@ CRITERIA TO BE GRADED (HAS TO BE DONE)
 
 
 Datacamp
-	This minor was the first time I had to work with python, so as a complete beginer the Datacamp courses were really useful, as they went from the most basic teachings, like creating variables, using libraries and loops; to more concrete elements of the data science field like how to create a K-Nearest Neighbor model, how to clean data or how to validate a model. 
+	This minor was the first time I had to work with python, so as a complete beginer the Datacamp courses were really useful, as they went from the most basic teachings, like creating variables, using libraries and loops; to more concrete elements of the data science field like how to create a K-Nearest Neighbor model, how to clean data or how to validate a model. The main advantages of this courses for me were, apart from learning how to code in python, it's relation with the minor, as many times what we were doing at the course was the same as what the lectures were  about, so as a way of understanding everything better were very useful.
+	My progress can be seen here: 
+
 
 
 Notebooks
