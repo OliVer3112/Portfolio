@@ -116,14 +116,17 @@ As a first approach of the project, we decided to split the group into machine l
 
 
 SGD
-At one moment of the project we wanted to try new models, so I decided to try and see how linear models adapted to our dataset. At first, i had to research on the  basic models usable on classification problems like [logistic regression](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python) and [support vector machines](https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python) (SVM). Regarding the research of svm, I was lucky that there was a team who made learning lab presentation based on it, so I contacted them to ask for their researching sources, which would make my task a lot easier. Out of all the methods svm was really suitable as it’s a good method for two-class problems and also can perform well in time series dataframe, but for us there was only one problem which was the dataframe’s size, as it isn’t a good method for big amounts of data. Then I looked for similar options and I found out that the SGD was one model that could fit better out of the linear models we knew.
+At one moment of the project we wanted to try new models, so I decided to try and see how linear models adapted to our dataset. At first, i had to research on the  basic models usable on classification problems like [logistic regression](https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python) and [support vector machines](https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python) (SVM). Regarding the research of svm, I was lucky that there was a team who made learning lab presentation based on it, so I contacted them to ask for their researching sources, which would make my task a lot easier. Out of all the methods svm was really suitable as it’s a good method for two-class problems and also can perform well in time series dataframe, but for us there was only one problem which was the dataframe’s size, as it isn’t a good method for big amounts of data. Then I looked for similar options and I found out that the SGD was one model that could fit better out of the linear models we knew, as it's really similar to svm but can work on large datasets.
 
 2d CNN
 After having our neural network and being in the middle of the 1d CNN development we decided to start working on the 2d CNN, as we thought it would be interesting to see if they could work on our dataset. I decided to try this task, as it I thought it would be a challenging task, though a  lot of time was required as I couldn’t find that much information about how to make our data work into a 2d CNN. The main problem with this method was how to adapt our data to a 2d CNN, at first one option I considered was converting the data into a 3d matrix, this method wouldn’t provide with any success, so I decided to make the graphs into images and then save them all, that way I would have images with which I could work on my model. Though there was a problem that made me decide dropping this model was the fact that our data wasn't labeled but also I lacked of a specific criteria to classify movements. Also we were told by the teachers in an internal presentation, that taking plots to images isn´t really recommendable, so we decided to left aside the 2d cnn and focus on our other modelsels
 
 Configuring a model
+KNN
+The configuring of this model wasn't that difficult, it took a bit of time, beasue i needed tu catch up with the datacamp courses, but once i managed it wasn't difficult to make the model. I also used some tutorials on the internet to try find different approaches to the problem.
 
-
+SGD
+At first the configuring of this model was a bit difficult as 
 
 
 Domain knowledge
@@ -193,6 +196,7 @@ Explain concepts
 			Recall: Proportion of the positives detected correctly. TP/(TP + FN)
 			Accuracy: Measures the proportion of true guesses by the model, it can make a model make better than it truly is because maybe detects a lot of true negatives but doesn't have true positives, which are the ones we want to increase. (TP + TN)/(TP + TN + FP + FN)
 
+Data preparation(explic lo que hisciste con jake y lo de las rotaciones pero no hace falta seguir los passos
 
 Communication
 Presentations
