@@ -110,10 +110,9 @@ Divide into:
 -Evaluating a model
 -Visualizing the outcome of a model 
 
-
-
+Selecting a model
 KNN
-As a first approach of the project, we decided to split the group into machine learning and data team. The machine learning team was in charge of making the first approaches to any usable method we could use. So, we decided to try make work a decision tree, knn and gaussian naïve bayes. My task was to make a working model of K-nearest Neighbors. This selection was made since they were the first models we were told about, so it would be a very naïve approach to the project in order to get used to the project, python and how machine learning works. Although some research was conducted before to see some examples of the model, also the datacamp resources were helpful(Supervised Learning with scikit-learn)
+As a first approach of the project, we decided to split the group into machine learning and data team. The machine learning team was in charge of making the first approaches to any usable method we could use. So, we decided to try make work a decision tree, knn and gaussian naïve bayes. My task was to make a working model of K-nearest Neighbors. This selection was made since they were the first models we were told about, so it would be a very naïve approach to the project in order to get used to the project, python and how machine learning works. Some research was conducted before to see some examples of the model, also the datacamp resources were helpful ([Supervised Learning with scikit-learn]https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
 https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn
 https://paperswithcode.com/method/k-nn
@@ -198,13 +197,7 @@ Explain concepts
 			Accuracy: Measures the proportion of true guesses by the model, it can make a model make better than it truly is because maybe detects a lot of true negatives but doesn't have true positives, which are the ones we want to increase. (TP + TN)/(TP + TN + FP + FN)
 
 
-Data preprocessing->Detect rotations
-
-When choosing tasks for next sprints I wanted to change from machine learning tasks to data tasks, so I got into the rotation detection. In this task we already had divided the data into chunk of n, also we were using the max values of the chunks among those values because the chunks wore amongst one second so we chose the best value for it(explain better whats the best value and why) I was required to look at different of our features as wheelRotSpeed, … Also I needed to establish parameters for when the rotation started, mainly the criteria was the frame rotationspeed going above a certain value, but also I tried to work on different calculations that could helpto get more accurate on the detection of rotations.
-All the measing values had been replaced by NaN at first instance so first I detected Nan from the datframe they were replaced by 0. Explain possibility of rotations not ending in the same plot
-Once I had the conditions for a rotations, I plotted them i order o see if they were actually rotations, after trying out many combinations I found out the one providing better results, which aren’t perfect as we are working with max values we can’t find exactly all the rotations and sometimes finds rotations which aren’t 
-
-Communiction
+Communication
 Presentations
 	In the course of time, we decided in my team who would be in charge of the respective presentation at least 4 days in advance. This would include asking colleagues about their progress, collecting that information and capturing it in a presentation, and then presenting that information on the day of the presentation.
 		Internal
