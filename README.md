@@ -123,17 +123,20 @@ After having our neural network and being in the middle of the 1d CNN developmen
 
 Configuring a model
 KNN
-The configuring of this model wasn't that difficult, it took a bit of time, beasue i needed tu catch up with the datacamp courses, but once i managed it wasn't difficult to make the model. I also used some tutorials on the internet to try find different approaches to the problem.
+The configuring of this model wasn't that difficult, it took a bit of time, beasue i needed tu catch up with the datacamp courses, but once i managed it wasn't difficult to make the model. I also used some tutorials on the internet to try find different approaches to the problem.Hyperparameters(
 
 SGD
-At first the configuring of this model was a bit difficult as 
+At first the configuring of this model was a bit difficult as the research because of (explicar relacion entre sgd and gd) but once i understood that it was pretty simple. As I only had to split the data and define the classifier
 
+Training = tunning(porque no hay otra cisa de que hablar)
+
+Evaluation (the precision was really bad so sgd not compatible because of the dataset knn demasiado simple no hay apenas hyperparametros que toquetear)
 
 Domain knowledge
 
 
 Introduction of the subject field
-	Today we live in the information age, where information comes and goes with just a few clicks. However, this information is of utmost importance in the workplace, ["The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity"]. The Applied Data Science minor has given me a first approach to the ins and outs of information manipulation and how to make predictions of events or classify information using large volumes of data and detecting patterns in it, in short the value of data science.
+	Today we live in the information age, where information comes and goes with just a few clicks. However, this information is of utmost importance in the workplace, ["The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity"](cita aqui). The Applied Data Science minor has given me a first approach to the ins and outs of information manipulation and how to make predictions of events or classify information using large volumes of data and detecting patterns in it, in short the value of data science.
 	"The use of analytics is no longer limited to big companies with deep pockets. It’s now widespread, with 59% of enterprises using analytics in some capacity" 
 
 Literature research
@@ -197,6 +200,10 @@ Explain concepts
 			Accuracy: Measures the proportion of true guesses by the model, it can make a model make better than it truly is because maybe detects a lot of true negatives but doesn't have true positives, which are the ones we want to increase. (TP + TN)/(TP + TN + FP + FN)
 
 Data preparation(explic lo que hisciste con jake y lo de las rotaciones pero no hace falta seguir los passos
+Sprint detection
+At the very first steps of the project we first wanted to know how to detect sprints. In order to achieve that I worked with Jake on a code which would let us label sprints, this needed to be done before we could get into the machine learning model. What we decided as a first step would be a good idea was to set a limit for frame rotational speed as when it incresed we would state the end of the sprint and the start of a rotation. Also we would set peaks as sprints. This [code](link predict sprints) is the latest version of the sprint detection I made, this one differs from the one I made originally as I implement two simple models, one kNN and logistic regression. Later all this code has been improved by other members of the group with the help of the game videos we were missing at that moment to appropiately tag the actions of the data recordings.
+
+Throughout the project we've been trying to detect not only sprints but rotations and collisions. One of the tasks I wanted to take was the detection of collisions. This was really challenging as all the time I had been working on the research of machine learning methods and the implementation of them. At this moment sprints had already been detected by setting limit values of speed and some other variables in order to state what a sprint is, then when the values went over that limit during a minimum amount of time we would set does as a sprint. With rotations it would be similar, but I had no limit values yet as it was one of the first times anybody of the group tried to work on them. Our data was going through a low pass filter, and the time of the game was divided into chunkz (1 second = 100 chunkz). So I  had to investigate and work with the code, as I didn´t really understand it well at first. Once I understood what everything was doing I would adjust the 
 
 Communication
 Presentations
