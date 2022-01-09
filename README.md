@@ -121,6 +121,8 @@ At one moment of the project we wanted to try new models, so I decided to try an
 2d CNN
 After having our neural network and being in the middle of the 1d CNN development we decided to start working on the 2d CNN, as we thought it would be interesting to see if they could work on our dataset. I decided to try this task, as it I thought it would be a challenging task, though a  lot of time was required as I couldn’t find that much information about how to make our data work into a 2d CNN. The main problem with this method was how to adapt our data to a 2d CNN, at first one option I considered was converting the data into a 3d matrix, this method wouldn’t provide with any success, so I decided to make the graphs into images and then save them all, that way I would have images with which I could work on my model. Though there was a problem that made me decide dropping this model was the fact that our data wasn't labeled but also I lacked of a specific criteria to classify movements. Also we were told by the teachers in an internal presentation, that taking plots to images isn´t really recommendable, so we decided to left aside the 2d cnn and focus on our other modelsels
 
+(Intentar enseñar la preparacion de los graficos en codigo)
+
 Configuring a model
 KNN
 The configuring of this model wasn't that difficult, it took a bit of time, beasue i needed tu catch up with the datacamp courses, but once i managed it wasn't difficult to make the model. I also used some tutorials on the internet to try find different approaches to the problem.Hyperparameters(
@@ -128,9 +130,11 @@ The configuring of this model wasn't that difficult, it took a bit of time, beas
 SGD
 At first the configuring of this model was a bit difficult as the research because of (explicar relacion entre sgd and gd) but once i understood that it was pretty simple. As I only had to split the data and define the classifier
 
-Training = tunning(porque no hay otra cisa de que hablar)
+Training
+For the training of the model I decided to split the dataset into a training part of x% of its size and the other 1-x% for the testing. SGD which is the only model in which I did tunning as with the KNN I didn´t know how to tune models, and at the moment I knew how to we already dropped the idea of using it. First I tried to manually change some hyperparameters to see the most important, until I decided to perform cross validation.
 
-Evaluation (the precision was really bad so sgd not compatible because of the dataset knn demasiado simple no hay apenas hyperparametros que toquetear)
+Evaluation
+After the tunning the precision we got wasn't very good, so I decided to add the hyperparameter of balance, to see if that would change the situation, though the change was minimum. As the main results were really bad we decided that there was no need of trying to balance the dataset by other methods which would be more time consuming as the reward wouldn't be worth.
 
 Domain knowledge
 
@@ -203,7 +207,15 @@ Data preparation(explic lo que hisciste con jake y lo de las rotaciones pero no 
 Sprint detection
 At the very first steps of the project we first wanted to know how to detect sprints. In order to achieve that I worked with Jake on a code which would let us label sprints, this needed to be done before we could get into the machine learning model. What we decided as a first step would be a good idea was to set a limit for frame rotational speed as when it incresed we would state the end of the sprint and the start of a rotation. Also we would set peaks as sprints. This [code](link predict sprints) is the latest version of the sprint detection I made, this one differs from the one I made originally as I implement two simple models, one kNN and logistic regression. Later all this code has been improved by other members of the group with the help of the game videos we were missing at that moment to appropiately tag the actions of the data recordings.
 
-Throughout the project we've been trying to detect not only sprints but rotations and collisions. One of the tasks I wanted to take was the detection of collisions. This was really challenging as all the time I had been working on the research of machine learning methods and the implementation of them. At this moment sprints had already been detected by setting limit values of speed and some other variables in order to state what a sprint is, then when the values went over that limit during a minimum amount of time we would set does as a sprint. With rotations it would be similar, but I had no limit values yet as it was one of the first times anybody of the group tried to work on them. Our data was going through a low pass filter, and the time of the game was divided into chunkz (1 second = 100 chunkz), this caused the features to not be usable, because of the division in chunkz; to solve this we had to choose the max values out of all the chunkz. So at first I  had to investigate and work with the code, as I didn´t really understand it well. Once I understood what everything was doing I would adjust the parameters which would suit better to the graphs peaks, to do this I had to try al the possible combinations with elemmental operations and also try with some differencials. Once I had the results that were more convincing for me I found out a problem where sometimes the rotations didn`t end in the same graph, as we were tracking the number of rotations that had started and stopped the sizes wouldn't match and I had to make some adjustments in the conditions for rotation finishing to solve this
+Throughout the project we've been trying to detect not only sprints but rotations and collisions. One of the tasks I wanted to take was the detection of collisions. This was really challenging as all the time I had been working on the research of machine learning methods and the implementation of them. At this moment sprints had already been detected by setting limit values of speed and some other variables in order to state what a sprint is, then when the values went over that limit during a minimum amount of time we would set does as a sprint. With rotations it would be similar, but I had no limit values yet as it was one of the first times anybody of the group tried to work on them. Our data was going through a low pass filter, and the time of the game was divided into chunkz (1 second = 100 chunkz), this caused the features to not be usable, because of the division in chunkz; to solve this we had to choose the max values out of all the chunkz. So at first I  had to investigate and work with the code, as I didn´t really understand it well. Once I understood what everything was doing I would adjust the parameters which would suit better to the graphs peaks, to do this I had to try al the possible combinations with elemmental operations and also try with some differencials. Once I had the results that were more convincing for me I found out a problem where sometimes the rotations didn`t end in the same graph, as we were tracking the number of rotations that had started and stopped the sizes wouldn't match and I had to make some adjustments in the conditions for rotation finishing to solve this (añadir algun ejemplo de los graficos y el codigo)
+                                                                       /\
+									|
+									|
+
+OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+
 
 Communication
 Presentations
@@ -213,5 +225,5 @@ Presentations
 		External
 			This presentations were useful for the problem owners to have an update of the state in which the project was. For this presentation on the [10th of Decemeber](https://github.com/OliVer3112/Portfolio/blob/4a6e0c7003ed5f5588fc4e52fea3fe94a31f05fa/Presentations/External10_Dec.pdf) I worked along with Martijn, my contributions were on the present situation of the project, results and also the next steps we were planning to take.
 
-	Research Paper
+	Writing Paper
 		For this part of the project I mainly worked on the abstract, introduction and problem description, also I took part in the finishing of the disscussion and recommendation. Initially I was working alone in the abstract and helping the other mates in their respective parts. Later I was in charge of changing the introduction by myself and try to make it a fluent story with the problem description. After this, I was working with Jake in making the last revision to the introduction, problem description and research question and subquestions. Then we had a meeting after which, I ended up working with Daan in order to adapt the introduction and problem description to the new concept we had in mind. Finally I was in charge of making introduction a fluent story again and also had to work with Collin on the finishing of the Discussion and Recommendation. Also like the rest of the team I had to check the paper before every meeting and give some feedback to the parts I found that could be improved.
