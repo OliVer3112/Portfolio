@@ -78,9 +78,9 @@ In professional sport, statistics are currently gaining a great deal of importan
 To start our project, the first thing we had to do was to get to know our problem owner and see what we had to start with, so that we could do some research on the subject and start working on it. After knowing the situation of the project we elaborated a plan of approach in which we decided to pose a main question and a series of sub-questions that we were interested in being able to answer at the end of the development of the project.
 
 The main question we wanted to answer in our Plan of Approach is:
--How can IMU data be used to identify wheelchair basketball-specific movements?
+-  How can IMU data be used to identify wheelchair basketball-specific movements?
 And the sub-questions raised by the team where:
--Which form of data processing will be used? 
+-  Which form of data processing will be used? 
 -Which specific movements can be detected? 
 -Which sensor data is used for each movement? 
 -Can movements be used to predict fatigue? 
