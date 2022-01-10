@@ -221,12 +221,12 @@ OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 
 ## Communication
-#### Presentations
+### Presentations
 In the course of time, we decided in my team who would be in charge of the respective presentation at least 4 days in advance. This would include asking colleagues about their progress, collecting that information and capturing it in a presentation, and then presenting that information on the day of the presentation.
 ##### Internal
 This presentations were a way of updating the teachers and classmates about our progress. But the most important part of this presentatiotion was the pposibility of raising our doubts with colleagues who, if they have encountered the problem before or know the solution, may be able to help us. It is also very useful to be asked questions because we can find weaknesses in our approach and development of tasks. The following presentation on the [20th of September](https://github.com/OliVer3112/Portfolio/blob/b8edbe22a26cfb3fb4bd6d068659a65af5013815/Presentations/Internal20_Sep.pdf) was made entirely by myself, I also made the presentation on the [20th of december](https://github.com/OliVer3112/Portfolio/blob/f73a0a86f24c91a6bd259ef3a73c9c5479a4c65d/Presentations/Internal20_Dec.pdf), but this one I made it with Jake. My contributions were on the recap and present of the project, but both Jake and I gave a bit of feedback to each other in order to improve distribution and selection of presented information.
 ##### External
 This presentations were useful for the problem owners to have an update of the state in which the project was. For this presentation on the [10th of Decemeber](https://github.com/OliVer3112/Portfolio/blob/4a6e0c7003ed5f5588fc4e52fea3fe94a31f05fa/Presentations/External10_Dec.pdf) I worked along with Martijn, my contributions were on the present situation of the project, results and also the next steps we were planning to take.
 
-## Writing Paper
+### Writing Paper
 For this part of the project I mainly worked on the abstract, introduction and problem description, also I took part in the finishing of the disscussion and recommendation. Initially I was working alone in the abstract and helping the other mates in their respective parts. Later I was in charge of changing the introduction by myself and try to make it a fluent story with the problem description. After this, I was working with Jake in making the last revision to the introduction, problem description and research question and subquestions. Then we had a meeting after which, I ended up working with Daan in order to adapt the introduction and problem description to the new concept we had in mind. Finally I was in charge of making introduction a fluent story again and also had to work with Collin on the finishing of the Discussion and Recommendation. Also like the rest of the team I had to check the paper before every meeting and give some feedback to the parts I found that could be improved.
