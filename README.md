@@ -10,7 +10,7 @@ CRITERIA TO BE GRADED (HAS TO BE DONE)
 
 
 
-## Datacamp
+### Datacamp
 	This minor was the first time I had to work with python, so as a complete beginer the Datacamp courses were really useful, as they went from the most basic teachings, like creating variables, using libraries and loops; to more concrete elements of the data science field like how to create a K-Nearest Neighbor model, how to clean data or how to validate a model. The main advantages of this courses for me were, apart from learning how to code in python, it's relation with the minor, as many times what we were doing at the course was the same as what the lectures were  about, so as a way of understanding everything better were very useful.
 	My progress can be seen in [profile progress overview](https://user-images.githubusercontent.com/94642037/148603346-27e81a79-3962-4e6e-8e96-fc812803bcd7.png)
 and in [datacamp course progress](https://github.com/OliVer3112/Portfolio/blob/3c5a61acdb3083141379980b6151bda34eccfbae/Datacamp/Assignments%20-%20DataCamp%20Learn.pdf)
@@ -33,36 +33,36 @@ Presentations
 	Research Paper-> Summary took part in summary, introduction, problem description and research questions 
 
 
-## REFLECTION AND EVALUATION
+### REFLECTION AND EVALUATION
 -Reflection on own contribution to the project(needs improvement)
-### Situation
+#### Situation
 In this minor the project I was assigned to was project Wheels, the task assigned to the group was to improve the outcomes of collecting data of wheelchair basketball players from the Dutch national team through sensors in the wheelchair.
-### Task
+#### Task
 This was my first time working in a task with such level of importance and with a group of more than 3 people. Knowing this I couldn’t take a main role as I knew almost anything about what to do or how to do it so I had to listen many times as at first, I couldn’t add much, though throughout the project this was improved. Even though my situation, I expected myself to be helpful and at least have some general knowledge on all the aspects in which the project is involved. 
-### Action
+#### Action
 To make my role in the project more relevant I tried to work on many different aspects of it such as model preparation, research in models and data preprocessing.
-### Reflection
+#### Reflection
 I think that my contribution in some parts due to lack of knowledge and not a complete domain of the language could have been better, but I think I tried my hardest for getting results good enough and tried to make something relevant for the project. I think in the future I should try to get more involved in the decision making and understand better the line in which the project is going, this means to know hat has to be done and why, this could help me to take a more important role in future projects.
 	STARR, reflected contribution and 400+ words(263)
-## Reflection on own learning objectives
-### Situation
+### Reflection on own learning objectives
+#### Situation
 For the first time thanks to this minor, I got hands into python, also was my first contact with data science and my first project with this level of seriousness, so the situation was really challenging from the first moment
-### Task
+#### Task
 From the first moment my objectives were to get some basic knowledge of python and learn everything I could of machine learning methods, and I wanted to understand how a real project works too, as they all are really valuable for my future.
-### Action
+#### Action
 In order to achieve my goals, I tried from the first moment to take notes of everything that was new for me, which made me have a slower pace compared to others but would help me to understand everything better. Also, I tried to assist to all the lectures and workshops possible as even if they were optional, I knew they would be helpful too
-### Reflection
+#### Reflection
 In my opinion my first approach to all these new things was good, but I think I went too slow on the python learning, which delayed me in other tasks. So definitely the approach I wanted to take was that, but I should have distinguished better in what parts I should be more conscientious in order to optimize time and efforts
 
 	STARR, reflected learning obectives and 400+ words(213)
-## Evaluation on group project as a whole
-### Situation
+### Evaluation on group project as a whole
+#### Situation
 For this project our group had 2 electrical engineers, 2 software engineers, 1 informatic engineer and Daan(ask him what were his studies about. This was a really good starting point as we had great variety of fields of expertise which could provide us with different points of view on the problems that could show up.
-### Task
+#### Task
 As good it was to have a great variety of points of view for a same point, because that would help us have more than one opinion on one problem, our main deal would be also to reach a point of agreement between all of us, because as we all come from different fields it would be very possible that our opinions on some actions would be opposed to each other
-### Action
+#### Action
 To avoid any kind of opinion difference, we just wanted to know each other’s opinions before making any decision, so we could make sure that everybody could understand why we are doing something
-### Reflection
+#### Reflection
 In my opinion the group was good, everybody tried to do its hardest and to communicate with each other. Of course, there were points of non-agreement, but I think that they were solved easily, just by exposing what each other means with their idea and then see how that would affect the course of the project.
 
 	STARR, reflected group project and 400+ words(213)
