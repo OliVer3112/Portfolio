@@ -78,22 +78,22 @@ In professional sport, statistics are currently gaining a great deal of importan
 To start our project, the first thing we had to do was to get to know our problem owner and see what we had to start with, so that we could do some research on the subject and start working on it. After knowing the situation of the project we elaborated a plan of approach in which we decided to pose a main question and a series of sub-questions that we were interested in being able to answer at the end of the development of the project.
 
 The main question we wanted to answer in our Plan of Approach is:
-	How can IMU data be used to identify wheelchair basketball-specific movements?
+-How can IMU data be used to identify wheelchair basketball-specific movements?
 And the sub-questions raised by the team where:
-	Which form of data processing will be used? 
-	Which specific movements can be detected? 
-	Which sensor data is used for each movement? 
-	Can movements be used to predict fatigue? 
-	Can movements be used to detect overload? 
+-Which form of data processing will be used? 
+-Which specific movements can be detected? 
+-Which sensor data is used for each movement? 
+-Can movements be used to predict fatigue? 
+-Can movements be used to detect overload? 
 
 #### Evaluation
 Throughout the project we've been trying many models, from the most basic ones like a Decision Tree to Neural Networks, until we found the models whose results were satisfactory. However, it took a long time to get to that point, due to various problems with the dataset. So we had to readjust the research questions to be more accurate with the final result, which we would be able to offer. 
 
 This would be our final research question: 
-	How can a RFC and a RNN be used to classify sprints in partially-defined IMU data? 
+-How can a RFC and a RNN be used to classify sprints in partially-defined IMU data? 
 And this our sub-questions:
-	Which form of data processing can be used to prepare the dataset?  
-	Which sensor data can be used for the detection of the sprints?  
+-Which form of data processing can be used to prepare the dataset?  
+-Which sensor data can be used for the detection of the sprints?  
 
 These new questions are more in line with the situation of our project, as the original ones were perhaps too ambitious, due to the inexperience we all had in the field of data science. In our research paper this questions have been already solved, as right now our models are capable of detecting sprints. Detection of other movements like rotatiosn, was in our scope and we only needed to adapt the existing code to achieve it. The results of this project can lead to really interesting future investigations, for example the detection and fatigue and overload this objective was on our scope at first. The main reason why we couldn't achieve this objectives was because we couldn´t finish the detection of all the required movements to study the fatigue and overload. Also we it could be interesting to study patterns in diferent paralysis levels.
 
