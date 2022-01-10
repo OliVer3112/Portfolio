@@ -79,6 +79,7 @@ To start our project, the first thing we had to do was to get to know our proble
 
 The main question we wanted to answer in our Plan of Approach is:
 -  How can IMU data be used to identify wheelchair basketball-specific movements?
+
 And the sub-questions raised by the team where:
 -  Which form of data processing will be used? 
 - Which specific movements can be detected? 
