@@ -92,6 +92,7 @@ Throughout the project we've been trying many models, from the most basic ones l
 
 This would be our final research question: 
 - How can a RFC and a RNN be used to classify sprints in partially-defined IMU data? 
+
 And this our sub-questions:
 - Which form of data processing can be used to prepare the dataset?  
 - Which sensor data can be used for the detection of the sprints?  
