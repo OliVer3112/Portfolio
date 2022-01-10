@@ -33,7 +33,7 @@ Presentations
 	Research Paper-> Summary took part in summary, introduction, problem description and research questions 
 
 
-### REFLECTION AND EVALUATION
+### Reflection and Evaluation
 -Reflection on own contribution to the project(needs improvement)
 #### Situation
 In this minor the project I was assigned to was project Wheels, the task assigned to the group was to improve the outcomes of collecting data of wheelchair basketball players from the Dutch national team through sensors in the wheelchair.
@@ -44,7 +44,8 @@ To make my role in the project more relevant I tried to work on many different a
 #### Reflection
 I think that my contribution in some parts due to lack of knowledge and not a complete domain of the language could have been better, but I think I tried my hardest for getting results good enough and tried to make something relevant for the project. I think in the future I should try to get more involved in the decision making and understand better the line in which the project is going, this means to know hat has to be done and why, this could help me to take a more important role in future projects.
 	STARR, reflected contribution and 400+ words(263)
-### Reflection on own learning objectives
+	
+### Reflection on own Learning Objectives
 #### Situation
 For the first time thanks to this minor, I got hands into python, also was my first contact with data science and my first project with this level of seriousness, so the situation was really challenging from the first moment
 #### Task
@@ -55,7 +56,8 @@ In order to achieve my goals, I tried from the first moment to take notes of eve
 In my opinion my first approach to all these new things was good, but I think I went too slow on the python learning, which delayed me in other tasks. So definitely the approach I wanted to take was that, but I should have distinguished better in what parts I should be more conscientious in order to optimize time and efforts
 
 	STARR, reflected learning obectives and 400+ words(213)
-### Evaluation on group project as a whole
+	
+### Evaluation on Group Project as a Whole
 #### Situation
 For this project our group had 2 electrical engineers, 2 software engineers, 1 informatic engineer and Daan(ask him what were his studies about. This was a really good starting point as we had great variety of fields of expertise which could provide us with different points of view on the problems that could show up.
 #### Task
