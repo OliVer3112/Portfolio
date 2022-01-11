@@ -17,6 +17,8 @@ My progress can be seen in [profile progress overview](https://user-images.githu
 and in [datacamp course progress](https://github.com/OliVer3112/Portfolio/blob/3c5a61acdb3083141379980b6151bda34eccfbae/Datacamp/Assignments%20-%20DataCamp%20Learn.pdf)
 
 
+Results	I finished the online programming course Datacamp and wrote code that worked well to fix a few issues that we had with the dataset like cleaning and finding more ground truths. After that I finished multiple Neural Network models like a 1D Convolution Neural Network and a Recurrent Neural Network with Long-Short Term Memory that were heavily used during the project. In these models and models of my teammates I implemented many features that helped me and my teammates to have better results on our models, a few examples are data loaders, data cleaners and validation programs. I also helped my teammates with coding their parts so that they wouldn’t be stuck on problems. Furthermore, I wrote parts of the Research paper that I knew most off and kept the whole class updated on my project through internal and external presentations. Also, I gave a learning lab to the whole class about the importance of data preparation of sensor data and how you could implement it.
+
 ## Reflection and Evaluation
 -Reflection on own contribution to the project(needs improvement)
 #### Situation
@@ -24,34 +26,37 @@ In this minor the project I was assigned to was project Wheels, the task assigne
 #### Task
 This was my first time working in a task with such level of importance and with a group of more than 3 people. Knowing this I couldn’t take a main role as I knew almost anything about what to do or how to do it so I had to listen many times as at first, I couldn’t add much, though throughout the project this was improved. Even though my situation, I expected myself to be helpful and at least have some general knowledge on all the aspects in which the project is involved. 
 #### Action
-To make my role in the project more relevant I tried to work on many different aspects of it such as model preparation, research in models and data preprocessing.
+To make my role in the project more relevant I tried to work on many different aspects of it such as model preparation, research in models and data preprocessing. First of all I had to focus more on my Datacamp courses, as I needed to get some python background before I could try making any coding. With the machine learning methods happens the same as with python, first I needed to conduct some research.
+#### Results
+Throughout the development of the project with the help of my research, some code from lectures and datacamp I was able to complete my tasks. At first I was working together with Daan in a script of MatLab which allowed us to take the MatLab files where the dataset was to a csv. Another of my contributions was the initation to machine learning models, as I created the K-Nearest Neighbors model which was one of the first models we made for the project. When we wanted to see how would linear models work on our dataset I researched all the information about it and also wrote a code for a SGD Classifier which was the method chosen. The team wanted to try work on linear models, so I decided to take the task, researched on the best possible model and implemented it.  Later I focused on the detections of rotations, which would help set a decent amount of them for further classification. 
 #### Reflection
-I think that my contribution in some parts due to lack of knowledge and not a complete domain of the language could have been better, but I think I tried my hardest for getting results good enough and tried to make something relevant for the project. I think in the future I should try to get more involved in the decision making and understand better the line in which the project is going, this means to know hat has to be done and why, this could help me to take a more important role in future projects.
-	STARR, reflected contribution and 400+ words(263)
+I think that my contribution in some parts due to lack of knowledge and not a complete domain of the language could have been better, but I think I tried my hardest for getting results good enough and tried to make something relevant for the project. I think in the future I should try to get more involved in the decision making and understand better the line in which the project is going, with this I mean to know hat has to be done and why, this could help me to take a more important role in future projects.
+
 	
 ## Reflection on own Learning Objectives
 #### Situation
 For the first time thanks to this minor, I got hands into python, also was my first contact with data science and my first project with this level of seriousness, so the situation was really challenging from the first moment
 #### Task
-From the first moment my objectives were to get some basic knowledge of python and learn everything I could of machine learning methods, and I wanted to understand how a real project works too, as they all are really valuable for my future.
+From the first moment my objectives were to get some basic knowledge of python and learn everything I could of machine learning methods, as for me the field of Artificial Intelligence is really interesting. I wanted to understand how a real project works too, I wanted to see myself working with people I don't know and from other fields of expertise so I could learnf rom their persectives
 #### Action
-In order to achieve my goals, I tried from the first moment to take notes of everything that was new for me, which made me have a slower pace compared to others but would help me to understand everything better. Also, I tried to assist to all the lectures and workshops possible as even if they were optional, I knew they would be helpful too
+In order to achieve my goals, I tried from the first moment to take notes of everything that was new for me, which made me have a slower pace compared to others but would help me to understand everything better. Also, I tried to assist to all the lectures and workshops possible as even if they were optional, I knew they would be helpful too. During the project as I wanted to understand many of the aspects of the minor, so I got involved in multiple different tasks like data preparation and machine learning models
+#### Results
+From the whole minor I get my first expirience in a real project, the seriousness it involves and also the importance of making quality work. Also I learnt how to ask for help when you think waht you are doing is going in the wrong direction. Another thing I've learnt is the basis of a new coding language like is python and the importance of data nowadays. Speaking about machine learning I've learnt how to implement, train, validate and evaluate models and also how to prepare data. 
 #### Reflection
-In my opinion my first approach to all these new things was good, but I think I went too slow on the python learning, which delayed me in other tasks. So definitely the approach I wanted to take was that, but I should have distinguished better in what parts I should be more conscientious in order to optimize time and efforts
-
-	STARR, reflected learning obectives and 400+ words(213)
+In my opinion my first approach to all these new things was good, but I think I went too slow on the python learning, which delayed me in other tasks. So definitely the approach I wanted to take was that, but I should have distinguished better in what parts I should be more conscientious in order to optimize time and efforts. I think that I worked well with my team, I think we ended up being comfortable with each other, giving feedback and receiving it appropiately and also asking for help when you need it. About data science I think its a really interesting field, though I would need to get deeper to know if it's something I want to keep on doing
 	
 ## Evaluation on Group Project as a Whole
 #### Situation
-For this project our group had 2 electrical engineers, 2 software engineers, 1 informatic engineer and Daan(ask him what were his studies about. This was a really good starting point as we had great variety of fields of expertise which could provide us with different points of view on the problems that could show up.
+For this project our group had 2 electrical engineers, 1 software engineer, 1 informatic engineer and Daan(ask him what were his studies about. This mix of future engineers has been part of team wheels during the development of this minor. Our project consisted in the classsification of wheelchair basketball movements
 #### Task
-As good it was to have a great variety of points of view for a same point, because that would help us have more than one opinion on one problem, our main deal would be also to reach a point of agreement between all of us, because as we all come from different fields it would be very possible that our opinions on some actions would be opposed to each other
+The first task we had as a group was understanding each other strong points in order to make a good division of tasks. Once the structure of the gtoup was set up we had to get into our problem, which is the classification of wheelchair basketball movements with the use of applied data science techniques. 
 #### Action
-To avoid any kind of opinion difference, we just wanted to know each other’s opinions before making any decision, so we could make sure that everybody could understand why we are doing something
+First of all we introduced ourselves, our studying background and what we are more confortable working on. After, we tried to classify the problem we were facing, so that we could focus our later research on the right direction. Also to keep a work ethic we decided to follow a scrum methodology in order to track the progress of the project and its members. Once we had planned how we wanted to developed the project, we showed our problem owner what we wanted to achieve to see if it matched with what he was expecting from us. After this we decided to structure the projects' route and set up the tasks that needed to be done and assigned them to the members of the group. To track everybodies tasks and see the problems they were strugling with or the progress made, we decided to set up a daily meeting in the morning. In this meetings we wouldexplain what we did the previous day and what we expect to do for the next day. Later we got hands in the tasks: researching models, coding them and selecting the best ones. Finally we documented all of our advances in the research paper. 
+#### Results
+The results of the group were at first a plan of approach, which would set the path for the project. Moreover we made a code capable of working with a partially defined dataset(explicar por que es asi) which uses two models to classify sprints of wheelchair basketball. Finally we have our research paper which contains all the discoveries made throughout the minor
 #### Reflection
-In my opinion the group was good, everybody tried to do its hardest and to communicate with each other. Of course, there were points of non-agreement, but I think that they were solved easily, just by exposing what each other means with their idea and then see how that would affect the course of the project.
+In my opinion the group was good, everybody tried to do its hardest and to communicate with each other. Of course, there were points of non-agreement, but I think that they were solved without any big problems. The work ethic generally was really good too, everybody knew what they had to do and tried its best to fullfill their tasks. Personally I think its a pitty we couldn't finish the rotation and collision detection, though I think that with what with the progress we made it wouldn't be something realy difficult.
 
-	STARR, reflected group project and 400+ words(213)
 
 ## Research Project
 
