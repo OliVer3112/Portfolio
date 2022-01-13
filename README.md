@@ -2,6 +2,10 @@ Name: Alejandro Oliver Llorente
 
 StudentNumber: 21102597
 
+Mail: 21102597@student.hhs.nl / alejandro.oliver14@gmail.com
+
+Minor: Applied Data Science 2021
+
 Teachers: J. Vuurens, T. Andrioli, R. Vermeij
 
 Project: Wheels
