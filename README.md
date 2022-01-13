@@ -186,7 +186,7 @@ Throughout the project we've been trying to detect not only sprints but rotation
 
 ![](https://github.com/OliVer3112/Portfolio/blob/57ff0ace4c5628024b9195cf1dfcf2a17af2ab7a/Notebooks/RotationGraph.PNG)
 
-Once I had the results that were more convincing for me I found out a problem where sometimes the rotations didn`t end in the same graph, as we were tracking the number of rotations that had started and stopped the sizes wouldn't match and I had to make some adjustments in the conditions for rotation finishing to solve this. This would be the first [script](codigo aqui). Later on we decided to add the rotation detection to another notebook. This new [notebook]() would detect both sprints and rotations but in a wider amount of data. The person in charge of sprints would add its part and I would add mine addapted to the new code. 
+Once I had the results that were more convincing for me I found out a problem where sometimes the rotations didn`t end in the same graph, as we were tracking the number of rotations that had started and stopped the sizes wouldn't match and I had to make some adjustments in the conditions for rotation finishing to solve this. This would be the first [script](https://github.com/OliVer3112/Portfolio/blob/b90a9126ff8d677ce4723756ce7cf62446e78538/Notebooks/DetectRotations.pdf). Later on we decided to add the rotation detection to another notebook. This new [notebook](https://github.com/OliVer3112/Portfolio/blob/b90a9126ff8d677ce4723756ce7cf62446e78538/Notebooks/DetectRotationsV2.pdf) would detect both sprints and rotations but in a wider amount of data. The person in charge of sprints would add its part and I would add mine addapted to the new code. 
 
 
 
