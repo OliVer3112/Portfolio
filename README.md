@@ -6,6 +6,9 @@ Teachers: J. Vuurens, T. Andrioli, R. Vermeij
 
 Project: Wheels
 
+
+# TABLE OF CONTENTS
+
 - [Portfolio](#portfolio)
   * [Datacamp](#datacamp)
   * [Reflection and Evaluation](#reflection-and-evaluation)
